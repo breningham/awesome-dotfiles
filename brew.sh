@@ -110,7 +110,6 @@ brew install gs
 brew install fzf
 
 # Cloud Provider
-brew install --cask google-cloud-sdk
 brew install awscli
 
 # Development
@@ -118,8 +117,6 @@ brew install tmux
 brew install tmuxinator
 brew install alacritty
 
-brew install lua
-brew install ninja # Ninja for Lua
 brew install k6
 brew install wasmer
 brew install ansible
@@ -144,18 +141,10 @@ brew install websocat            # websocat
 brew install ripgrep             # ripgrep recursively searches directories for a regex pattern
 brew install libpq               # install postgres tools without installing full postgres
 brew install elixir              # elixir programming language
-brew install --cask lens         # Lens GUI for kubernetes
-brew install helm                # helm kubernetes package manager
 brew install shellcheck          # shellcheck shell/bash linter
 brew install yamllint            # yamllint YAML linter
 brew install github/gh/gh        # github cli
 brew install nektos/tap/act      # test github actions locally
-
-# Kubernetes
-brew install kubectl             # kubernetes cli
-brew install kubectx             # Faster way to switch between clusters and namespaces
-brew install --cask lens
-
 
 brew cask install ngrok # ngrok secure introspectable tunnels to localhost
 
@@ -180,11 +169,6 @@ brew install weaveworks/tap/footloose
 # Spectacle
 brew cask install spectacle
 
-# Install terraform tooling (terraform should be installed through asdf)
-brew install --ignore-dependencies terragrunt
-brew install tflint
-brew install hashicorp/tap/terraform-ls
-
 # Packetsender
 brew cask install packetsender
 
@@ -196,9 +180,6 @@ brew cask install font-hack-nerd-font
 
 # MonitorControl https://github.com/MonitorControl/MonitorControl
 brew cask install monitorcontrol
-
-# Install VSCodium (VSCode without tracking)
-brew install --cask vscodium
 
 # Remove outdated versions from the cellar.
 brew cleanup

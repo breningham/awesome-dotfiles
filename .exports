@@ -1,9 +1,7 @@
 #!/usr/bin/env zsh
 
-# Make neovim the default editor.
-export EDITOR='vim'
-alias vim="nvim"
-alias vi="nvim"
+# Make code the default editor.
+export EDITOR='code'
 
 # Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
 export PYTHONIOENCODING='UTF-8'
@@ -31,8 +29,6 @@ export MANPAGER='less'
 # https://stackoverflow.com/a/42265848/96656
 export GPG_TTY=$(tty)
 
-# GoLang
-export GOPATH="$HOME/projects/golang" # you might want to consider to change this
 export GOROOT="$(brew --prefix golang)/libexec"
 export PATH="$PATH:${GOPATH}/bin:${GOROOT}/bin"
 
@@ -41,3 +37,6 @@ export PATH="/usr/local/opt/libpq/bin:$PATH"
 
 # GNU
 export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
+
+# NVM 
+e

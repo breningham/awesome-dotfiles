@@ -127,8 +127,8 @@
     # Ignore fileMod changes such as chmod 
 	fileMode = false
 
-    # Use NVim as the default editor
-    editor = /usr/local/bin/nvim -u ~/.config/nvim/init.lua
+    # Use VSCode as the default editor
+    editor = /usr/local/bin/code --wait
 [color]
 
 	# Use colors in Git commands that are capable of colored output when
@@ -214,8 +214,8 @@
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
 [user]
-	name = Soren Martius
-	email = soeren.martius@gmail.com
-	signingkey = 4CCF69E8
+	name = Brendan Ingham
+	email = brendan@ingham.dev
+	signingkey = DE7A4EEC9F25E700F1FB5030EBBB9F0A3E5B1105
 [pull]
 	rebase = true
